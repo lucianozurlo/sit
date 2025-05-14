@@ -24,7 +24,6 @@ body {
   border-color: var(--dark-gray);
 }
 .navbar .navbar-nav .nav-link {
-  font-size: 18px;
   font-weight: 400;
 }
 header .navbar-brand img {
@@ -45,7 +44,7 @@ header .btn.btn-rounded.btn-small {
   font-weight: 400 !important;
 }
 .navbar .navbar-nav .dropdown.dropdown-with-icon .dropdown-menu {
-  width: 330px;
+  width: 350px;
 }
 .navbar
   .navbar-nav
@@ -213,6 +212,9 @@ aside .btn-box-shadow:hover {
 }
 
 /**/
+.color-white {
+  color: #fff !important;
+}
 .top-25 {
   top: 25%;
 }
@@ -227,4 +229,7 @@ aside .btn-box-shadow:hover {
 }
 .mw-unset {
   max-width: unset;
+}
+.navbar .navbar-nav .dropdown.dropdown-with-icon .dropdown-menu li a {
+  padding: 10px 20px 10px 0;
 }
