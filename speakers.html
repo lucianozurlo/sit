@@ -7,11 +7,12 @@
       <meta name="viewport" content="width=device-width,initial-scale=1.0" />
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" />
-      <link rel="stylesheet" href="css/vendors.min.css" />
-      <link rel="stylesheet" href="css/icon.min.css" />
-      <link rel="stylesheet" href="css/style.min.css" />
-      <link rel="stylesheet" href="css/responsive.min.css" />
-      <link rel="stylesheet" href="css/sit.css" />
+      <link rel="stylesheet" href="assets/css/vendors.min.css" />
+      <link rel="stylesheet" href="assets/css/icon.min.css" />
+      <link rel="stylesheet" href="assets/css/style.min.css" />
+      <link rel="stylesheet" href="assets/css/responsive.min.css" />
+      <link rel="stylesheet" href="assets/css/sit.css" />
+      <link rel="icon" href="assets/img/favicon.png" type="image/png" />
    </head>
 
    <body data-mobile-nav-style="classic" class="bg-sit-dark">
@@ -20,9 +21,9 @@
             <div class="container-fluid">
                <div class="col-auto col-lg-2 me-lg-0 me-auto">
                   <a class="navbar-brand" href="index.html">
-                     <img src="img/logo-sit2-blanco.png" alt="" class="default-logo" />
-                     <img src="img/logo-sit2-blanco.png" alt="" class="alt-logo" />
-                     <img src="img/logo-sit2-blanco.png" alt="" class="mobile-logo" />
+                     <img src="assets/img/logo-sit2-blanco.png" alt="" class="default-logo" />
+                     <img src="assets/img/logo-sit2-blanco.png" alt="" class="alt-logo" />
+                     <img src="assets/img/logo-sit2-blanco.png" alt="" class="mobile-logo" />
                   </a>
                </div>
                <div class="col-auto menu-order position-static">
@@ -92,9 +93,9 @@
 
       <section class="bg-sit-dark ipad-top-space-margin pb-2">
          <div class="container">
-            <div class="row align-items-center justify-content-center extra-small-screen">
+            <div class="row align-items-center justify-content-center extra-extra-small-screen">
                <div class="col-lg-12 text-center page-title-extra-large">
-                  <h1 class="mb-0 text-white alt-font fw-600 ls-minus-5px">
+                  <h1 class="mb-0 text-white alt-font fw-600 ls-minus-3px">
                      <span
                         data-anime='{ "opacity": [0, 1], "easing": "easeOutQuad", "duration": 1000, "delay": 300 }'
                         >Speakers</span
@@ -109,7 +110,9 @@
          <div class="container">
             <div class="row">
                <iframe
-                  src="https://widget.socio.events/MzI1MTc%3D/__widget__/35690?token=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJXaWRnZXQiLCJldmVudF9pZCI6MzI1MTcsImJsb2NrX2lkIjozNTY5MH0sImlzcyI6Imh0dHBzOi8vc29jaW8uZXZlbnRzIiwiaWF0IjoxNzE1MjgyMjEyfQ.mU3uB8npnkLlazB9IGSzouGQryOWSY5HQfO-FT_4Ml0"
+                  id="widget-preview56197"
+                  title="Widget Preview"
+                  src="https://widget.socio.events/NTU1NDU%3D/__widget__/56197?token=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJXaWRnZXQiLCJldmVudF9pZCI6NTU1NDUsImJsb2NrX2lkIjo1NjE5N30sImlzcyI6Imh0dHBzOi8vc29jaW8uZXZlbnRzIiwiaWF0IjoxNzQ5ODQzOTE0fQ.zP_F3iBnirX_fzDwtKzoFtdLvLUhveWg5F30ogUrnEc"
                   style="
                      width: 100%;
                      min-width: 100%;
@@ -120,20 +123,35 @@
                   allowtransparency="false"
                   scrolling="no"
                ></iframe>
+               <script
+                  src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.2.10/iframeResizer.js"
+                  integrity="sha256-FM10DPs0oUnTTrvP5TkeBE1bHSpaHkxKWqbkTGkUq/Q="
+                  crossorigin="anonymous"
+               ></script>
+
+               <script>
+                  const iframe56197 = document.getElementById('widget-preview56197');
+                  iframe56197?.addEventListener('load', () => {
+                     iFrameResize(
+                        { heightCalculationMethod: 'taggedElement' },
+                        '#widget-preview56197'
+                     );
+                  });
+               </script>
             </div>
          </div>
       </section>
 
       <footer
          class="bg-sit-dark background-position-right-top background-no-repeat md-background-image-none"
-         style="background-image: url('img/sit-bg1.png')"
+         style="background-image: url('assets/img/sit-bg1.png')"
       >
          <div class="container">
             <div class="row align-items-center">
                <div
                   class="col-lg-12 order-3 order-sm-2 order-lg-3 text-center color-white xs-mt-10px last-paragraph-no-margin"
                >
-                  <img src="img/evento-sustentable.svg" alt="" class="pb-2" />
+                  <img src="assets/img/evento-sustentable.svg" alt="" class="pb-2" />
                   <p>Telecom 2025</p>
                </div>
             </div>
@@ -146,8 +164,8 @@
          </a>
       </div>
 
-      <script type="text/javascript" src="js/jquery.js"></script>
-      <script type="text/javascript" src="js/vendors.min.js"></script>
-      <script type="text/javascript" src="js/main.js"></script>
+      <script type="text/javascript" src="assets/js/jquery.js"></script>
+      <script type="text/javascript" src="assets/js/vendors.min.js"></script>
+      <script type="text/javascript" src="assets/js/main.js"></script>
    </body>
 </html>

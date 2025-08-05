@@ -10,8 +10,8 @@ _sit.html
 animations.html
 vidcast.html
 .DS_Store
-img/.DS_Store
-img/galeria/.DS_Store
+assets/img/.DS_Store
+assets/img/galeria/.DS_Store
 _orig
 .vscode
 element
